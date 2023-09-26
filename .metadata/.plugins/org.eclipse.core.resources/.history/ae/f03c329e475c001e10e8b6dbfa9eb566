@@ -5,7 +5,6 @@ public class Music {
 	private String musicTitle;
 	private String musician;
 	private String genre;
-	private int playNo;
 	
 	
 	public Music() {

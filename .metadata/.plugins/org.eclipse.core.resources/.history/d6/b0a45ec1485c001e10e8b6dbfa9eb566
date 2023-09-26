@@ -2,7 +2,6 @@ package com.kh.view;
 
 import java.util.Scanner;
 import com.kh.controller.MusicController;
-import com.kh.model.vo.Music;
 
 public class MusicMenu {
 	private Scanner sc = new Scanner(System.in);
@@ -43,7 +42,5 @@ public void inputMusic() {
 	
 	System.out.println("3. 장르 : ");
 	String genre = sc.nextLine();
-	
-	mc.insertMusic(musicTitle, musician, genre);
  }
 }

@@ -1,14 +1,12 @@
 package com.kh.view;
 
 import java.util.Scanner;
-import com.kh.controller.MusicController;
-import com.kh.model.vo.Music;
 
 public class MusicMenu {
 	private Scanner sc = new Scanner(System.in);
 	private MusicController mc = new MusicController();
 	
-	public void musicMenu() {
+	public void MusicMenu() {
 		System.out.println("=== 노래 메뉴 ===");
 		System.out.println("1. 노래추가");
 		System.out.println("2. 노래선택");
@@ -43,7 +41,5 @@ public void inputMusic() {
 	
 	System.out.println("3. 장르 : ");
 	String genre = sc.nextLine();
-	
-	mc.insertMusic(musicTitle, musician, genre);
  }
 }

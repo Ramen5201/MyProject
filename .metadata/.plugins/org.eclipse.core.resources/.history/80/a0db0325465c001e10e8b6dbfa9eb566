@@ -1,0 +1,6 @@
+package com.kh.model.vo;
+
+public class Music {
+	private int musicNo;
+	private String musicTitle;
+}
